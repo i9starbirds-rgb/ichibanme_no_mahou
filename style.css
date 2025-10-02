@@ -39,11 +39,17 @@ button:hover {
 }
 
 .thankyou {
-  font-family: cursive, 'Shippori Mincho', serif;
-  font-size: 2em;
+  font-family: 'Great Vibes', cursive;
+  font-size: 19px;   /* DLボタンと同じくらい */
+  margin-bottom: 20px;
+}
+
+.open-date {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 19px;   /* DLボタンと同じくらい */
   margin-bottom: 30px;
 }
 
 .dl-button {
-  font-size: 18px;
+  font-size: 19px;
 }
