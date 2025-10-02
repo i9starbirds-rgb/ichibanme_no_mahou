@@ -1,4 +1,15 @@
-body {
-    margin: 0;
-    padding: 0;
+.thankyou {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.6em;   /* 小さめに調整 */
+  margin-bottom: 20px;
+}
+
+.open-date {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 18px;   /* DLボタンと同じくらい */
+  margin-bottom: 30px;
+}
+
+.dl-button {
+  font-size: 18px;
 }
