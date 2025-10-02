@@ -1,12 +1,46 @@
-.thankyou {
-  font-family: 'Great Vibes', cursive;
-  font-size: 18px;   /* DLボタンと同じくらい */
-  margin-bottom: 20px;
+body {
+  background-color: black;
+  color: gold;
+  font-family: 'Shippori Mincho', serif;
+  text-align: center;
+  margin-top: 100px;
 }
 
-.open-date {
-  font-family: 'Shippori Mincho', serif;
-  font-size: 18px;   /* DLボタンと同じくらい */
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  font-family: inherit;
+  background: black;
+  color: gold;
+  border: 1px solid gold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: gold;
+  color: black;
+}
+
+.error {
+  margin-top: 10px;
+  color: crimson;
+  font-size: 14px;
+}
+
+.thankyou {
+  font-family: cursive, 'Shippori Mincho', serif;
+  font-size: 2em;
   margin-bottom: 30px;
 }
 
