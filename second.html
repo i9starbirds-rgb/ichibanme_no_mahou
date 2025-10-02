@@ -1,42 +1,23 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <title>秘密のページ</title>
-    <style>
-        body {
-            background-color: black;
-            color: gold;
-            font-family: "Hiragino Mincho ProN", "MS Mincho", serif;
-            text-align: center;
-            padding-top: 15%;
-        }
-        .thankyou {
-            font-family: "Brush Script MT", "Segoe Script", cursive;
-            font-size: 1.5em;
-        }
-        .date {
-            font-size: 1.2em;
-            margin: 10px 0;
-        }
-        a {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 1.2em;
-            color: black;
-            background-color: gold;
-            border-radius: 8px;
-            text-decoration: none;
-        }
-        a:hover {
-            background-color: darkgoldenrod;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>2ページ目</title>
+  <!-- フォント読み込み（明朝体 + 筆記体） -->
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p class="thankyou">Thank you for finding me</p>
-    <p class="date">I open on December 31, 2025</p>
-    <a href="ichibanme_no_mahou.wav" download>DL</a>
+  <div class="container">
+    <!-- 筆記体風 -->
+    <h1 class="thankyou">Thank you for finding me</h1>
+    
+    <!-- 明朝体・DLと同じ大きさ -->
+    <p class="open-date">I open on December 31, 2025</p>
+
+    <a href="ichibanme_no_mahou.wav" download>
+      <button class="dl-button">DL</button>
+    </a>
+  </div>
 </body>
 </html>
