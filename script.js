@@ -1,7 +1,7 @@
 function checkInput() {
     const input = document.getElementById('userInput').value;
     const errorMessage = document.getElementById('errorMessage');
-    const correctAnswer = "secret"; // 正解キーワードを設定
+    const correctAnswer = "1番目の魔法"; // 正解キーワードを設定
 
     if (input === correctAnswer) {
         window.location.href = "second.html";
