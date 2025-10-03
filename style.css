@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: #bab89e;
+    font-family: 'Hona Shin Mincho', 'Yu Mincho', serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20%;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: black;
+    color: #bab89e;
+    border: 1px solid #bab89e;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.message {
+    font-size: 24px;
+    font-weight: 450; /* 少し太めよりも細く調整 */
+    margin-bottom: 20px;
+    color: #bab89e;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: 450; /* 少し太めよりも細く調整 */
+    margin-bottom: 20px; /* messageとの余白と揃える */
+    color: #bab89e;
+}
+
+.dl-button {
+    font-size: 18px;
+    color: #bab89e;
+    border: 1px solid #bab89e;
+    background-color: black;
+    padding: 10px 20px;
+    margin-top: 20px; /* subtitleとの余白を揃える */
+}
